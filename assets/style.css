@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Rubik Burned', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 0 1rem #000000;
+    background-image: url(rain.gif);
+    background-size: cover;
+    color: white;
+    padding: 1vh;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 3rem;
+    font-family: 'Darumadrop One', sans-serif;
+}
