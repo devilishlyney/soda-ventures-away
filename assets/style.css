@@ -38,20 +38,24 @@ h2 {
     font-family: 'Darumadrop One', sans-serif;
 }
 
-li {
+li a {
     font-family: 'Darumadrop One', sans-serif;
     background-color: #514c70;
     border-radius: 8px;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
+    margin: 15px;
+    display: block;
+    border-width: 2px;
+    transition: all 0.15s;
+    color: white;
 }
 
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-family: 'Darumadrop One', sans-serif;
-    text-decoration: none;
-    text-align: center;
+li a:hover {
+    transition: all 0.3s;
+    background-image: linear-gradient(to bottom, #3d3a52, #9c96be);
+    transform: scale(1.1);
 }
 
 ul {
