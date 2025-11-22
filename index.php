@@ -80,7 +80,7 @@ if(isset($_GET["c1"]))
 
             $choice = [
             [
-                "pick" => "I'll pray Palkia to turn back the hands of time.",
+                "pick" => "I'll pray Dialga to turn back the hands of time.",
                 "link" => "index.php"
             ]
             ];
@@ -107,7 +107,7 @@ if(isset($_GET["c2"]))
 
             $choice = [
             [
-                "pick" => "I'll pray Palkia to turn back the hands of time.",
+                "pick" => "I'll pray Dialga to turn back the hands of time.",
                 "link" => "index.php"
             ]
             ];
@@ -126,7 +126,7 @@ if(isset($_GET["c2"]))
 
             $choice = [
             [
-                "pick" => "I'll pray Palkia to turn back the hands of time.",
+                "pick" => "I'll pray Dialga to turn back the hands of time.",
                 "link" => "index.php"
             ]
             ];
@@ -148,7 +148,7 @@ if(isset($_GET["c3"]))
 
             $choice = [
                 [
-                    "pick" => "I'll pray Palkia to turn back the hands of time.",
+                    "pick" => "I'll pray Dialga to turn back the hands of time.",
                     "link" => "index.php"
                 ]
                 ];
@@ -164,7 +164,7 @@ if(isset($_GET["c3"]))
 
             $choice = [
                 [
-                    "pick" => "I'll pray Palkia to turn back the hands of time.",
+                    "pick" => "I'll pray Dialga to turn back the hands of time.",
                     "link" => "index.php"
                 ]
                 ];
