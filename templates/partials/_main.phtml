@@ -2,19 +2,21 @@
     <h2>
         <?php echo $pageTitle; ?>
     </h2>
-    <p>
-        <?php echo $pageContent; ?>
-    </p>
-    <ul>
-        <?php     for($i = 0; $i < count($choice_1); $i++) 
-            { 
-        ?>
-            <li>
-                <a href='<?php echo $choice_1[$i]["link"] ?>'> <?php echo $choice_1[$i]["pick"]; ?> </a>
-            </li> 
-        <?php 
-            } 
-        ?>
+    <section id="main-section">
+        <p class="page-content">
+            <?php echo $pageContent; ?>
+        </p>
+        <ul>
+            <?php     for($i = 0; $i < count($choice); $i++) 
+                { 
+            ?>
+                <li>
+                    <a href='<?php echo $choice[$i]["link"] ?>'> <?php echo $choice[$i]["pick"]; ?> </a>
+                </li> 
+            <?php 
+                } 
+            ?>
 
-    </ul>
+        </ul>
+    </section>
 </main>
